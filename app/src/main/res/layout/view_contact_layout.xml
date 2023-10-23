@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/nameLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="Nom :" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="CHARLES" />
+
+    <TextView
+        android:id="@+id/firstNameLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="Prénom :" />
+
+    <TextView
+        android:id="@+id/firstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="Olivier" />
+
+    <TextView
+        android:id="@+id/birthdateLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="Date de naissance :" />
+
+    <TextView
+        android:id="@+id/birthdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="25/03/67" />
+
+    <Button
+        android:id="@+id/btnModify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Modifier" />
+
+
+</LinearLayout>
